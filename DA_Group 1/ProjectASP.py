@@ -18,7 +18,7 @@ visitor_raw_df["month"] = visitor_raw_df["year_month"].str.split().str[1]
 # Displaying the loaded data
 print(visitor_raw_df.head())
 
-print(visitor_raw_df.columns)pp
+print(visitor_raw_df.columns)
 
 # select Asia country column (include year column), put into new df
 # filter year
