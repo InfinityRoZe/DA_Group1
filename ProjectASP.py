@@ -1,6 +1,7 @@
 # Importing the necessary libraries
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Loading the data file using pandas
 visitor_raw_df = pd.read_excel("Int Monthly Visitor.xlsx")
