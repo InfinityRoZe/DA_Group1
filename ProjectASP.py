@@ -3,10 +3,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Loading the data file using pandas
-visitor_raw_df = pd.read_excel("Project_File.xlsx")
-
+# Loading the data file
 # Displaying the loaded data
+visitor_raw_df = pd.read_excel("Project_File.xlsx")
 print(visitor_raw_df)
 
 # give a name to the missing column name
